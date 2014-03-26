@@ -1,0 +1,223 @@
+/* Main css file for MedSquare Admin panel */
+
+body {
+	background: url(../images/bg.png);
+}
+.hide {
+	display:none;
+}
+.row { 
+	text-align:center;
+	width:100%;
+}
+header {
+	background:#13202c;
+	padding: 5px;
+}
+.heformlogo {
+	text-align:left;
+}
+.hesignup {
+	font-size:14px;
+	color:#9b9b9b;
+}
+.createnew {
+	margin-top:10px;
+}
+.signup {
+    text-align: left;
+}
+.signuphead {
+    color: #0182af;
+    font-size: 20px;
+    font-weight: bold;
+}
+.signuptext {
+
+}
+.heform {
+    margin-top: 10px;
+    color: #424242;
+    text-align: left;
+}
+.form-search input, .form-inline input, .form-horizontal input, .form-search textarea, .form-inline textarea, .form-horizontal textarea, .form-search select, .form-inline select, .form-horizontal select, .form-search .help-inline, .form-inline .help-inline, .form-horizontal .help-inline, .form-search .uneditable-input, .form-inline .uneditable-input, .form-horizontal .uneditable-input, .form-search .input-prepend, .form-inline .input-prepend, .form-horizontal .input-prepend, .form-search .input-append, .form-inline .input-append, .form-horizontal .input-append {
+	border-radius:2px;
+	background:#f8f8f8;
+}
+.form-horizontal .control-group {
+	margin-bottom: 10px;
+}
+.form-horizontal select {
+	width:100%;
+}
+.help-block {
+	font-size: 12px;
+	margin-top: 0px !important;
+	min-width: 230px;
+	color: #888;
+}
+.help-block a{
+	font-size: 15px;
+}
+.select_container {
+    border: 1px solid #ccc;  
+	background: #f8f8f8;
+    padding: 5px;
+    height: 92px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.select_count{
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+    margin-bottom: -1px;
+    padding: 5px;
+}
+.browsebutton {
+	background:#9b9b9b;
+	padding: 8px 5px;
+	color:#fff;
+	font-size:16px;
+	text-align: center;
+	width: 90px;
+	position: relative;
+	margin-top: -28px;
+	z-index: 13;
+	margin-bottom: 10px;
+	pointer-events: none;
+}
+.browsebutton:active{
+     box-shadow: 2px 2px 19px #CCC;
+}
+.fileinput {
+	margin-left:9px;
+}
+#signupbutton {
+    color: #fff;
+    font-size: 20px;
+    background: url(../images/loginbg.png) repeat-x;
+    padding: 8px 0px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0 none;
+    border-radius: 0;
+    width: 100%;
+}
+.captcha {
+	width:65%;
+}
+.signuperror {
+	font-size:16px;
+	color:red;
+	font-weight:bold;
+	text-align: center;
+}
+.downloadapp {
+    margin-top: 1610px;
+
+}
+.downldappfor {
+    color: #9b9b9b;
+
+}
+.phonetab {
+    color: #0f6c9d;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid #bdbdbd;
+}
+.icons {
+	margin-top:10px;
+}
+.androidicon {
+	float: left;
+	background:url(../images/andro.png) no-repeat;
+	background-position: 60% center;
+	width: 50%;
+	height: 61px;
+}
+.appleicon {
+	float: left;
+	background:url(../images/apple.png) no-repeat;
+	background-position: 40% center;
+	width: 50%;
+	height: 61px;
+}
+
+@media (max-width: 463px) {
+	#audio {
+        float: left;
+        margin-top: 10px;	
+	}
+    #refreshimg {
+        float: left;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 72%;
+	}
+}
+@media (max-width: 479px) {
+	body {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	.container {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	.select_container {
+		height:auto;
+	}
+}
+@media (max-width: 767px) {
+	.downloadapp {
+		display:none;
+	}
+}
+
+@media (min-width: 479px) and (max-width: 767px) {
+	body {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	.container {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	.captcha {
+		width:280px;
+	}
+	.select_container {
+		height:auto;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	
+}
+
+@media (min-width: 980px) and (max-width: 1199px){
+	
+}
+
+@media (min-width: 1200px) {
+	.form-horizontal select {
+		width:73%;
+	}
+	.select_container {
+		width: 70%;
+	}
+	.select_count{
+		width: 70%;
+	}
+	.terms{
+		width: 70%;
+	}
+	#signupbutton {
+		width: 73%;
+	}
+	.captcha {
+		width:50%;
+	}
+}

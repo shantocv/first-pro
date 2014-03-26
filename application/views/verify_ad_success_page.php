@@ -1,0 +1,100 @@
+<?php
+	include('include/front_header.php');
+
+?>
+
+<div class="container" id="wrapper" style="width:100%;margin:0 auto;margin-top:25px;padding:0;">    
+        <div class="row" style="width:1000px;padding:0;margin:0 auto;margin-top:24px;margin-bottom:10px;pading:0;" >
+      <?php
+        $post_title=str_replace(' ', '-',$ad_details->post_title);  
+        $post_title=preg_replace('/[^A-Za-z0-9\-]/', '', $post_title);
+        $post_title=preg_replace('/--+/', '-', $post_title);
+        $post_title=strtolower($post_title);
+      ?>
+
+        <div style="background-color:#e5e5e5;width:990px;height:60px;font-size:16px;padding:10px;">
+		You Email hase been verified.You can now see your ad <a href="<?php echo base_url(),$post_title,'/',$ad_details->post_id; ?>"> here </a>
+	</div>  
+	
+          
+		
+         
+       
+      </div> <!-- row -->
+      
+     
+      
+    </div> <!-- container -->
+    </div>
+    <script src="<?php echo base_url(); ?>front_style/js/bootstrap.js"> </script>
+	
+	
+	
+	
+	
+	<script type="text/javascript">
+           $( document ).ready(function() {
+                  var t1;
+                  var t2;
+                  t1 = 0;
+                  t2 = 0;
+				  $('.trigger1').click(
+				  	function(){
+						if(t1 == 1){
+							t1=0;
+						}
+					}
+				  );
+				  
+				  $('.trigger2').click(
+				  	function(){
+						if(t2 == 1){
+							t2=0;
+						}
+					}
+				  );
+				         $('.trigger1').popover({
+				                 'placement': 'bottom',
+                      html: true,
+                      title: function () {
+                          if(t2==1){
+                          //hide popover
+                          $('.trigger2').click();
+                          t2=0;
+                          }
+                          t1=1;
+                          return $(this).parent().find('.head').html();
+                      },
+                      content: function () {
+                          
+                          return $(this).parent().find('.content').html();
+                      }
+                      
+                  });
+                  $('.trigger2').popover({
+				                   'placement': 'bottom',
+                      html: true,
+                      title: function () {
+                          if(t1==1){
+                          //hide popover
+                          $('.trigger1').click();
+                          t1=0;
+                          }
+                          t2=1;
+                          return $(this).parent().find('.reg').html();
+                      },
+                      content: function () {
+                          
+                          return $(this).parent().find('.regcont').html();
+                      }
+                  });
+                  
+                    
+                   
+                    
+         });
+        </script>
+		
+<?php
+	include('include/front_footer.php');
+?>

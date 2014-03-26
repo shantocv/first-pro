@@ -1,0 +1,30 @@
+/**
+* Responsive Twitter Bootstrap fixes for < IE 8 
+* Greg Guydo (www.guydoconsulting.com)
+* free to use and adapt for all
+**/
+// Desktops
+@media (min-width: 980px) {
+  .lt-ie8 .visible-desktop { 
+    *display: inline !important; 
+    zoom: 1;
+  }
+}
+
+// Tablets & small desktops only
+@media (min-width: 768px) and (max-width: 979px) {
+  .lt-ie8 .visible-tablet,
+  .lt-ie8 .hidden-desktop { 
+    *display: inline !important; 
+    zoom: 1;
+  }  
+}
+
+// Phones only
+@media (max-width: 767px) {
+  .lt-ie8 .visible-phone,
+  .lt-ie8 .hidden-desktop { 
+    *display: inline !important; 
+    zoom: 1;  
+  }
+}

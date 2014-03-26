@@ -1,0 +1,60 @@
+
+
+footer {
+
+	background:#13202c;
+
+	height: 40px;
+
+	color:#fff;
+
+	float: left;
+
+	width: 100%;
+}
+
+.copyright {
+
+    float: left;
+
+    margin-top: 10px;
+
+    margin-left: 30px;
+
+}
+
+.createdby {
+
+    float: right;
+
+    margin-top: 10px;
+
+}
+
+
+
+@media (max-width: 767px) {
+
+    footer {
+
+        padding:5px;
+
+    }
+
+	.copyright {
+
+		float: none;
+
+		margin:0;
+
+	}
+
+	.createdby {
+
+		float: none;
+
+		margin-top: 0;
+
+	}
+
+}

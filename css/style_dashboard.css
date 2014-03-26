@@ -1,0 +1,1084 @@
+/* Main css file for MedSquare Admin panel */
+
+body, html {
+  height: 558px;
+}
+body {
+	background: url(../images/bg.png);
+}
+.hide {
+
+	display:none;
+
+}
+
+.row { 
+
+	text-align:center;
+
+	width:100%;
+
+}
+
+header {
+
+	background:#13202c;
+
+	padding: 5px;
+	
+	margin-bottom: 5px;
+
+}
+
+.headerspan {
+
+    margin-left: 0;
+
+	color:#fff;
+
+}
+
+.heformlogo {
+
+	text-align:left;
+
+	margin-left: 0px;
+
+	margin-top: 3px;
+
+	float: left;
+
+}
+.heformlogo img{
+	height: 50px;
+}
+
+.adminhead {
+
+	font-size:20px;
+
+	text-align: center;
+
+	width: 300px;
+
+	margin-left: -150px;
+
+	margin-top: 10px;
+
+	position: absolute;
+
+	left: 50%;
+
+}
+
+.adminuser {
+
+    color: #fff;
+
+    float: right;
+
+}
+
+.adminuser a{
+
+    color: #fff;
+
+}
+
+.welcome {
+
+
+
+}
+
+.admintopimg {
+
+    border-radius: 50%;
+
+    width: 36px;
+
+    height: 36px;
+
+    border: 3px solid #188e7b;
+
+}
+
+.adminname {
+
+
+
+}
+
+.admindrop {
+
+	background:url(../images/admindrop.png) no-repeat center;
+
+	display: inline-block;
+
+	width: 11px;
+
+	height: 6px;
+
+}
+
+.admindropmenu {
+
+    top: 52px;
+
+    margin-left: 45px;
+
+    border: 1px solid #bababa;
+
+	background:#f2f2f2;
+
+}
+
+.admindroptop {
+
+	position:absolute;
+
+	width: 13px;
+
+	height: 8px;
+
+	background: url(../images/admindroptop.png) no-repeat center;
+
+	margin-top: -12px;
+
+	margin-left: 135px;
+
+}
+
+.leftmenucontainer {
+
+	height: 100%;
+
+}
+
+.leftmenurow {
+
+    height: 100%;
+
+}
+
+.leftmenucolumn {
+
+    background: #e7e7e7;
+
+    height: 100%;
+
+}
+
+
+
+#leftMenu .accordion-group {
+
+    margin-bottom: 0px;
+
+    border:0px;
+
+    -webkit-border-radius: 0px;
+
+    -moz-border-radius: 0px;
+
+    border-radius: 0px;
+
+    text-align: left;
+
+}    
+
+
+
+#leftMenu .accordion-heading {
+
+    height: 34px; /* inner stroke */ /* inner stroke */
+
+    background-color: #e7e7e7;
+
+    list-style-type:none;
+
+    float: left;
+
+    height: auto;
+
+	width: 100%;
+
+}  
+
+
+
+
+
+#leftMenu .accordion-toggle {
+
+	color: #13202c;
+
+    text-decoration:none; 
+
+}
+
+#leftMenu .accordion-toggle.dropable  {
+
+    background: url(../images/dropableright.png) no-repeat right;
+
+	background-position: 96%;
+
+	color: #13202c;
+
+    text-decoration:none; 
+
+}
+
+#leftMenu .accordion-toggle:hover {
+
+    background:#13202c;
+
+	color: #fff;
+
+}
+
+#leftMenu .accordion-toggle.dropable:hover {
+
+    background:#13202c url(../images/dropablerightwhite.png) no-repeat right;
+
+	background-position: 96%;
+
+	color: #fff;
+
+}
+
+#leftMenu .accordion-toggle.active.dropable  {
+
+	color: #fff;
+
+    background: #13202c url(../images/dropabledown.png) no-repeat right;
+
+	background-position: 96%;
+
+}
+
+#leftMenu .accordion-toggle.active  {
+
+	color: #fff;
+
+    background: #13202c;
+
+}
+
+.accordion-inner {
+
+	border-top: 0;
+
+	background: #d8d8d8;
+
+}
+
+#leftMenu ul {
+
+    list-style-image:url(../images/listimg.png);
+
+}
+
+.collapse.in {
+
+	clear: both;
+
+}
+
+
+
+.icon {
+
+	width: 14px;
+
+	height: 16px;
+
+	display: inline-block;
+
+}
+
+.icon.services {
+
+	background:url(../images/icon-services.png);
+
+	background-size: 100%;
+
+}
+
+.icon.services.icon-white {
+
+	background:url(../images/icon-services-white.png);
+
+	background-size: 100%;
+
+}
+
+.icon.specializations {
+
+	background:url(../images/icon-specializations.png);
+
+	background-size: 100%;
+
+	height: 14px;
+
+}
+
+.icon.specializations.icon-white {
+
+	background:url(../images/icon-specializations-white.png);
+
+	background-size: 100%;
+
+	height: 14px;
+
+}
+
+.icon.pharmacies {
+
+	background:url(../images/icon-pharmacies.png);
+
+	background-size: 100%;
+
+	width: 18px;
+
+	height: 13px;
+
+	margin-left: -4px;
+
+}
+
+.icon.pharmacies.icon-white {
+
+	background:url(../images/icon-pharmacies-white.png);
+
+	background-size: 100%;
+
+	width: 18px;
+
+	height: 13px;
+
+	margin-left: -4px;
+
+}
+
+.icon.reports {
+
+	background:url(../images/icon-reports.png);
+
+	background-size: 100%;
+
+	height: 14px;
+
+}
+
+.icon.reports.icon-white {
+
+	background:url(../images/icon-reports-white.png);
+
+	background-size: 100%;
+
+	height: 14px;
+
+}
+
+
+
+.leftalign {
+
+	text-align: left;
+
+}
+
+.dashboardhead {
+
+	background: url(../images/dashboardhead.png) no-repeat left;
+
+	font-size: 22px;
+
+	margin-top: 10px;
+
+	padding: 10px 0px 10px 35px;
+
+}
+
+.dashboardheadsub {
+
+    margin-left: 67px;
+
+}
+
+.dashboardhome {
+
+    background: #e7e7e7;
+
+    padding: 5px 10px;
+
+    margin-top: 15px;
+
+}
+
+.statistics {
+
+	margin-top: 15px;
+
+	margin-left: 50px;
+
+	font-size: 16px;
+
+}
+
+.statisticdiv {
+
+	background: #e7e7e7;
+
+	height: 90px;
+
+	margin-left: 11px;
+
+	margin-bottom: 10px;
+
+}
+
+.statisticdiv:hover {
+
+    background: #1abc9c;
+
+}
+
+.statisticdiv.first {
+
+	margin-left: 30px;
+
+}
+
+.buttonsrow {
+
+	margin-top:10px;
+
+}
+
+.count {
+
+    color: #797979;
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+    float: left;
+
+    margin: 10px;
+
+}
+
+.buttonpic {
+
+    background: url(../images/dashboardbuttons.png) no-repeat center;
+
+    background-size: 134px;
+
+    width: 29px;
+
+    height: 35px;
+
+    float: right;
+
+    margin: 10px;
+
+    margin-bottom: 20px;
+
+}
+
+.statisticdiv:hover .buttonpic {
+
+    background: url(../images/dashboardbuttons_active.png) no-repeat;
+
+    background-size: 134px;
+
+}
+
+.statisticdiv:hover .count {
+
+    color:#fff;
+
+}
+
+.statisticdiv:hover .buttontitle {
+
+    color:#fff;
+
+}
+
+#users {
+
+    background-position: 0px;  
+
+}
+
+#he {
+
+    background-position: -33px;
+
+    width: 32px;
+
+}
+
+#hi {
+
+    background-position: -70px;  
+
+}
+
+#pharmacy {
+
+    background-position: -106px;  
+
+}
+
+.buttontitle {
+
+    color: #13202c;
+
+    float: right;
+
+    clear: both;
+
+    margin: 0px 10px;
+
+    text-align: right;
+
+}
+
+
+
+/* userrecords */
+
+.addnew {
+
+	float: right;
+
+	color:#33b5e5;
+
+	background: transparent url(../images/addnew.png) no-repeat;
+
+	padding: 2px;
+
+	padding-left: 25px;
+
+	margin-right: 20px;
+
+}
+
+.userrechead {
+
+	float: left;
+
+}
+
+.tableheadcontainer {
+
+	float: left;
+
+	background: #e7e7e7;
+
+	padding: 5px 10px;
+
+	margin-top: 10px;
+
+	margin-bottom:3px;
+
+}
+
+.searchbox {
+
+	float:right;
+
+}
+
+.tablehead {
+
+	float:left;
+
+	background:url(../images/memebers.png) no-repeat left;
+
+	padding: 2px;
+
+	padding-left: 25px;
+
+	font-size: 16px;
+
+	margin-top: 3px;
+
+}
+
+.tablesearch {
+
+	float:left;
+
+	margin: 0 !important;
+
+	border-radius: 0 !important;
+
+	background-image: url(../images/search.png);
+
+	background-position: 5px;
+
+	background-repeat: no-repeat;
+
+	background-color: #f4f4f4 !important;
+
+	border: 0 !important;
+
+	padding-left: 20px !important;
+
+}
+
+.gobutton {
+
+	float:left;
+
+	background: #252525;
+
+	color: #fff;
+
+	padding: 4px;
+
+	margin-left: 5px;
+
+	border: 0;
+
+}
+
+.gobutton:hover {
+
+	text-decoration:none;
+
+	color:#fff;
+
+}
+
+
+
+.usertable {
+
+	border:1px solid #b9b9b9 !important;
+
+	color:#13202c;
+
+}
+
+.usertable th,.usertable td{
+
+	border:1px solid #b9b9b9 !important;
+
+	word-wrap: break-word;
+
+	max-width: 100px;
+
+}
+
+tr:nth-child(even) {
+
+    background-color: #e7e7e7;
+
+}
+
+tr:nth-child(odd) {
+
+    background-color: #f9f8f8;
+
+}
+
+tr:nth-child(1) {
+
+	background:#cfcfcf;
+
+}
+
+.userinfolink {
+
+	display: block;
+
+	background:url(../images/infolink.png) no-repeat center;
+
+	width: 26px;
+
+	height: 19px;
+
+	left: 50%;
+
+	margin-left: -13px;
+
+	position: relative;
+
+}
+
+.status {
+
+	color:#fff;
+
+	text-align: center;
+
+	border-radius: 3px;
+
+	cursor: pointer;
+
+}
+
+.Verified {
+
+	background:#99cc00;
+
+}
+
+.Not.verified {
+	background:orange;
+	border: 0;
+	border-radius: 3px;
+}
+
+.editbutton {
+
+	background:#99cc00 url(../images/pencil.png) no-repeat center;
+
+	border: 0;
+
+	width: 30px !important;
+
+	margin-bottom:5px;
+
+}
+
+.deletebutton {
+
+	background:#ff4444 url(../images/trash.png) no-repeat center;
+
+	border: 0;  width: 30px !important;
+
+}
+
+.paginationcontainer {
+
+	text-align:center;
+
+	background: #e7e7e7;
+
+	padding: 5px 0px 1px;
+
+	margin-bottom: 10px;
+
+}
+
+.pagination {
+
+	margin: 0;
+
+}
+
+form {
+
+	margin: 0;
+
+}
+
+
+
+.active_sub_menu {
+
+	font-weight:bold;
+
+}
+
+.active_sub_menu:hover {
+
+	color: #08c;	
+
+}
+
+.Active {
+
+	background:#99cc00;
+
+	border:0;
+
+	border-radius:3px;
+
+	color:#fff;
+
+}
+
+.Inactive {
+
+	background:orange;
+
+	border:0;
+
+	border-radius:3px;
+
+	color:#fff;
+
+}
+
+
+
+.addcompanyform {
+
+    margin-top: 10px;
+
+
+
+}
+
+.submitbutton {
+
+	color: #fff;
+
+	font-size: 20px;
+
+	background: url(../images/loginbg.png) repeat-x;
+
+	padding: 8px 0px;
+
+	cursor: pointer;
+
+	border: 0 none;
+
+	border-radius: 0;
+
+	width: 190px !important;
+
+}
+
+.company_added {
+
+    margin-left: 50px;
+
+    font-size: 16px;
+
+    color: green;
+
+    margin-top: 10px;
+
+}
+
+.form-horizontal .control-label {
+
+	width: 200px;
+
+	margin-right:10px;
+
+}
+
+.inforow {
+	margin-bottom:10px;
+}
+.infolabel {
+	font-weight:bold;
+	text-align:right;
+}
+.infotext {
+    margin-left: 15px;
+}
+
+@media (max-width: 767px) { 
+	body {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	.leftmenucontainer {
+		height: auto;
+		padding:0px 20px;
+	}
+	.leftmenurow {
+		height: auto;
+	}
+	.leftmenucolumn {
+		height: auto;
+	}
+	#leftMenu .accordion-heading {
+		float: none;
+	}
+	.statisticdiv.first {
+		margin-left: 0px;
+	}
+	.leftmenurow {
+		width: 100%;
+	}
+	.dashboardhome {
+		width: 100%;
+		margin-left:0px;
+	}
+	.statisticdiv {
+		width: 100%;
+		margin-left:0px;
+	}
+	.addnew {
+		margin-right: 55px;
+	}
+	.usertable {
+	}	
+	.infolabel 
+	{
+		width: 48%;	
+		float: left;
+	}
+	.infotext {
+		float: left;
+		width: 48%;
+		margin-left: 10px;
+	}
+}
+
+@media (max-width: 635px) {
+	.heformlogo {
+		width: 100%;
+		text-align: center;
+	}
+	.adminhead {
+		float:left;
+		position: relative;
+		clear: both;
+		margin-left: 0px;
+		left: 0;
+		width: 100%;  text-align: center;
+	}
+	.adminuser {
+		color: #fff;
+		float: left;
+		margin-top: 10px;
+		width: 100%;  text-align: center;
+	}
+	.admindropmenu {
+		top: 128px;
+		left:50%;
+		margin-left: -65px;
+	}
+}
+
+@media all and (max-width: 315px) {	
+
+}
+
+@media all and (min-width: 315px) and (max-width: 355px) {
+
+}
+
+@media all and (min-width: 355px) and (max-width: 395px) {
+
+}
+
+@media all and (min-width: 395px) and (max-width: 479px) {
+
+}
+
+@media (min-width: 479px) and (max-width: 635px) {
+
+}
+
+@media (min-width: 635px) and (max-width: 767px) {	
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	.dashboardhome {
+		width: 92%;
+		width: 511px !important;
+	}
+	.adminuser {
+		margin-right: 12px;
+	}
+	.buttonpic {
+		margin-bottom: 5px;
+	}
+	.span8bigger {
+		width: 518px;
+	}
+	.statisticdiv {
+		width: 122px;
+	}
+	.buttonsrow {
+		width: 107%;
+	}
+	.usertable {
+		width: 538px;	
+	}
+	.paginationcontainer {
+		width: 538px;
+	}
+}
+
+@media (min-width: 980px) and (max-width: 1199px){
+	.dashboardhome {
+		width: 94%;
+		width: 512px;
+	}
+	.adminuser {
+		margin-right: 6px;
+	}
+	.buttonpic {
+		margin-bottom: 6px;
+		margin-top: 5px;
+	}
+
+	.span8bigger {
+		width: 680px;
+	}
+	.statisticdiv {
+		width: 164px;
+	}
+	.buttonsrow {
+		width: 107%;
+	}
+	.usertable {
+		width: 700px;
+	}
+	.paginationcontainer {
+		width: 700px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.dashboardhome {
+		width: 838px !important;
+		width: 90%;
+	}
+	.adminuser {
+		margin-right: 15px;
+	}
+	.span8bigger {
+		width:840px;
+	}
+	.statisticdiv {
+		width: 206px;
+	}
+	.buttonsrow {
+		width: 107%;
+	}
+	.addnew {
+		margin-right:5px;
+	}
+	.usertable {
+		width: 860px;
+	}
+	.paginationcontainer {
+		width: 860px;
+	}	
+}
+
+.select_count {
+	border: 1px solid #ccc;
+	background: #f8f8f8;
+	margin-bottom: -1px;
+	padding: 5px;
+}
+.select_container {
+	border: 1px solid #ccc;
+	background: #f8f8f8;
+	padding: 5px;
+	height: 148px;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+}
+#Add{margin-left: 125px;width: inherit;background: url(../images/loginbg.png) repeat-x;color: #FFF;height: 34px;padding: 0px 21px;border: 0;}
+.addCompany{background: #99cc00 ;color: #FFF;width: 76px !important;}
+

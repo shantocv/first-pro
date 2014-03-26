@@ -1,0 +1,1 @@
+		<footer>			<div class="container">				<div class="row">					<div class="span12 headerspan">						<div class="copyright">&copy; 2013, Yuplee. All rights reserved. </div>						<div class="createdby">Created by: Zeromaze</div>					</div>				</div>			</div>		</footer>

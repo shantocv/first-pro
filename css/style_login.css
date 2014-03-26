@@ -1,0 +1,601 @@
+/* Main css file for MedSquare Admin panel */
+
+
+
+body {
+
+	background: url(../images/bg.png);
+
+}
+
+.hide {
+
+	display:none;
+
+}
+
+.row { 
+
+	text-align:center;
+
+	width:100%;
+
+}
+
+.logo {
+
+	/*background: url(../images/logo.png) no-repeat center;*/
+
+	width: 100%;
+
+	height: 100px;
+
+	margin-top: 50px;
+
+}
+
+.loginbox {
+
+	float: left;
+
+	width: 100%;
+
+	margin-top: 20px;
+
+	background: #fff;
+
+	padding: 10px;
+
+	margin-bottom: 30px;
+
+	border: 1px solid #ebebeb;
+
+}
+
+.plslogin {
+
+    font-size: 18px;
+
+    color: #ababab;
+
+    border-bottom: 2px solid #eaeaea;
+
+    height: 25px;
+
+    margin-bottom: 15px;
+
+}
+
+.loginfields {
+
+
+
+}
+
+.loginfield {
+
+
+
+}
+
+.logininput{
+
+    border-radius: 2px !important;
+
+    border: 0 !important;
+
+    border-top: 1px solid #d4d4d4 !important;
+
+    border-left: 1px solid #d4d4d4 !important;
+
+    padding: 10px 0px 8px 55px !important;
+
+	outline: 1px solid #fff !important;
+
+    width: 80%;
+
+}
+
+#username {
+
+	background: #dbdbdb url(../images/username.png) no-repeat left;
+
+	border-top: 1px solid #d4d4d4 !important;
+
+}
+
+#forgotusername {
+
+	background: #dbdbdb url(../images/email.png) no-repeat left;
+
+	border-top: 1px solid #d4d4d4 !important;
+
+}
+
+#password {
+
+	background: #dbdbdb url(../images/password.png) no-repeat left;
+
+	border-top: 1px solid #d4d4d4 !important;
+
+}
+
+.status {
+
+	background: #dbdbdb url(../images/success.png) no-repeat left;
+
+	width: 22px;
+
+	height: 22px;
+
+	display: inline-block;
+
+	position: absolute;
+
+	margin-left: -30px;
+
+	margin-top: 8px;
+
+	display:none;
+
+}
+
+.status.error {
+
+	background: #dbdbdb url(../images/error.png) no-repeat left;
+
+}
+
+.rememberme {
+
+	float:left;
+
+	text-align: left;
+
+	margin-left: 45px;
+
+    color: #ababab;
+
+	margin-top: 10px;
+
+}
+
+input[type="checkbox"] {
+
+	background: url(../images/checkbox.png) no-repeat center;
+
+	margin:0;
+
+    display:none;
+
+}
+
+input[type="checkbox"] + label span {
+
+    display:inline-block;
+
+    width: 22px;
+
+    height: 22px;
+
+    margin:-1px 4px 0 0;
+
+    vertical-align:middle;
+
+    background:url(../images/checkbox.png) no-repeat center;
+
+    cursor:pointer;
+
+}
+
+input[type="checkbox"]:checked + label span {
+
+    background:url(../images/checkbox_checked.png) no-repeat center;
+
+}
+
+label {
+
+	float:left;
+
+}
+
+.loginbutton {
+
+    color: #fff;
+
+    font-size: 20px;
+
+    background: url(../images/loginbg.png) repeat-x;
+
+    padding: 8px 0px;
+
+    cursor: pointer;
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+
+}
+
+.loginbutton a{
+
+    color: #fff;
+
+    text-decoration:none;
+
+}
+
+.donthave {
+
+    color: #ababab;
+
+}
+
+.sidenavs {
+
+    position: absolute;
+
+    width: 30px;
+
+    height: 90px;
+
+    z-index: 1;
+
+    margin-left: 621px;
+
+    margin-top: 20px;
+
+}
+
+.sidenav {
+
+	background: #ebebeb url(../images/sidenavinactive.png) no-repeat center;
+
+	background-size: 70%;
+
+	width: 100%;
+
+	height: 30px;
+
+	border-bottom: 1px solid #dee2e3;
+
+	border-top: 1px solid #dee2e3;
+
+	border-right: 1px solid #dee2e3;
+
+	cursor: pointer;
+
+}
+
+.sidenav.sideactive {
+
+	background: #fff url(../images/sidenavactive.png) no-repeat;
+
+	background-size: 70%;
+
+}
+
+#loginnav {
+
+    background-position: center 5px;
+
+}
+
+#addusernav {
+
+
+
+}
+
+#forgetnav {
+
+    background-position: center -75px;
+
+}
+
+
+
+.forgotbox {
+
+	float: left;
+
+	width: 100%;
+
+	margin-top: 20px;
+
+	background: #fff;
+
+	padding: 10px;
+
+	margin-bottom: 30px;
+
+	border: 1px solid #ebebeb;
+
+}
+
+.forgotbutton {
+
+	color: #fff;
+
+    font-size: 18px;
+
+    background: url(../images/forgotbg.png) repeat-x;
+
+    padding: 8px 0px;
+
+    cursor: pointer;
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+
+}
+
+.loading {
+
+	background: url(../images/loading.gif) no-repeat center;
+
+	height: 36px;
+
+	width: 100%;
+
+	margin-top: 10px;  margin-bottom: 10px;
+
+}
+
+.login_error {
+
+	font-size:14px;
+
+	color:red;
+
+	font-weight:bold;
+
+}
+
+form {
+
+margin: 0 0 0px;
+
+}
+
+
+
+
+
+
+
+@media (max-width: 479px) {
+
+	.sidenavs {
+
+		margin-left: 409px;
+
+	}
+
+	.loginbox {
+
+		width: 410px;
+
+	}
+
+}
+
+
+
+@media (min-width: 479px) and (max-width: 767px) {
+
+	.sidenavs {
+
+		margin-left: 425px;
+
+	}
+
+	.loginbox {
+
+		margin-left: -14px;
+
+	}
+
+    .forgotbox {
+
+		margin-left: -14px;
+
+	}
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+	.sidenavs {
+
+		margin-left: 393px;
+
+	}
+
+}
+
+
+
+@media (min-width: 980px) and (max-width: 1199px){
+
+	.sidenavs {
+
+		margin-left: 501px;
+
+	}
+
+}
+
+
+
+@media (min-width: 1200px) {
+
+	.sidenavs {
+
+	}
+
+}
+
+
+
+@media all and (max-width: 315px) {
+
+	.rememberme {
+
+    margin-left: 10px;
+
+    width: 160px;
+
+	}
+
+	.sidenavs {
+
+		margin-left: 190px;
+
+	}
+
+	.loginbox {
+
+		width: 210px;
+
+		margin-left: -19px;
+
+		padding: 10px 0;
+
+	}
+
+	.forgotbox {
+
+    margin-left: -19px;
+
+    width: 210px;
+
+    padding: 10px 0;
+
+	}
+
+	#forgotusername {
+
+    max-width: 142px;
+
+	
+
+	}
+
+	#username {
+
+    max-width: 142px;
+
+	
+
+	}
+
+	#password {
+
+    max-width: 142px;
+
+	
+
+	}
+
+}
+
+
+
+@media all and (min-width: 315px) and (max-width: 355px) {
+
+	.sidenavs {
+
+		margin-left: 265px;
+
+	}
+
+	.loginbox {
+
+		margin-left: -14px;
+
+		width: 100%;
+
+	}
+
+	.rememberme {
+
+		margin-left: 10px;
+
+	}
+
+	.forgotbox {
+
+    margin-left: -14px;
+
+	}
+
+}
+
+
+
+@media all and (min-width: 355px) and (max-width: 395px) {
+
+	.sidenavs {
+
+		margin-left: 305px;
+
+	}
+
+	.loginbox {
+
+		margin-left: -14px;
+
+		width: 100%;
+
+	}
+
+	.rememberme {
+
+		margin-left: 10px;	
+
+	}
+
+	.forgotbox {
+
+		margin-left: -14px;
+
+	}
+
+}
+
+
+
+@media all and (min-width: 395px) and (max-width: 479px) {
+
+	.sidenavs {
+
+		margin-left: 345px;
+
+	}
+
+	.loginbox {
+
+		margin-left: -14px;
+
+		width: 100%;
+
+	}
+
+	.rememberme {
+
+		margin-left: 10px;
+
+	}
+
+	.forgotbox {
+
+		margin-left: -14px;
+
+	}
+
+}

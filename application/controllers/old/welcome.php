@@ -1,0 +1,1 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');class Welcome extends CI_Controller {	/**	 * The Index Page.	 * The controller which shows the main options to the user to select.	 */	public function index()	{		header('Location: '.base_url().'login');	}}/* End of file welcome.php *//* Location: ./application/controllers/welcome.php */
