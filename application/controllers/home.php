@@ -14,13 +14,12 @@ class Home extends CI_Controller {
 		$this->shanto = $_SERVER['HTTP_HOST'];
 		$sub_dom = explode('.',$this->shanto);
 		$this->session->set_userdata('city',$sub_dom[0]);
-		$this->config->set_item('base_url','http://' . $sub_dom[0] .'.zeromaze.dev') ;
-		$this->config->set_item('base_url','http://thrissur.zeromaze.dev') ;
+		$this->config->set_item('base_url','http://' . $sub_dom[0] .'.zeromaze.com'); 
 		if (get_cookie('location_name')) {
 			if($sub_dom[0] == 'yuplee'){
 				$location_name=get_cookie('location_name');
 				if($location_name !== 'yuplee'){
-					header("location:".'http://'.$location_name.'.zeromaze.dev'.$_SERVER["REQUEST_URI"]);
+					header("location:".'http://'.$location_name.'.zeromaze.com'.$_SERVER["REQUEST_URI"]);
 				}
 				
 			}
